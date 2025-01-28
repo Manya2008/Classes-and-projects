@@ -1,0 +1,21 @@
+{"intent": [
+    {"tag":"greeting", 
+     "pattern": ["hello","hi","hey","how are you doing"],
+     "responses": ["hello","good to see you", "fine and you"]
+    },
+    {"tag":"goodbye", 
+    "pattern": ["bye","nice talking to you","goodbye", "See you later", "Nice chatting to you, bye", "Till next time"],
+    "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Good day"]
+    },
+    {"tag":"thanks", 
+    "pattern": ["thanks","thank you","thats helpfull","thanks for helping me"],
+    "responses": ["pleasure to help you","you are wlecome","anytime","no problem"]
+    },
+    {"tag":"noanswer", 
+    "pattern": [""],
+    "responses": ["sorry I am not sure","can not help you with that I am afraid","sorry try again","error: 10101000 brzzt..bzzt"]
+    }
+  ]
+}
+
+    
